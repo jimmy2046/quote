@@ -1,24 +1,31 @@
 # README
+Quotation module using Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby version
+* ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+* Rails 5.1.6
 
-Things you may want to cover:
+## Database
+* Postgre SQL
+* Created database 'quote_development'
+* Created database 'quote_test'
 
-* Ruby version
+## Setup
+```
+$ bundle install
+$ rails db:create
+$ rails db:migrate
+```
 
-* System dependencies
+## Test
+```
+$ rails test
+```
 
-* Configuration
+## Run
+```
+$ rails server
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Revision history
+* Oct 14, 2018: Quote project created. 
