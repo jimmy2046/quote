@@ -1,0 +1,67 @@
+<h1>New Quote</h1>
+
+<%= form_with scope: :book, url: books_path, local: true do |form| %>
+
+  <p>      
+    <%= form.label :month %><br>
+    <%= form.text_field :month %>
+  </p>
+
+  <p>      
+    <%= form.label :dd %><br>
+    <%= form.text_field :dd %>
+  </p>
+
+  <p>      
+    <%= form.label :yyyy %><br>
+    <%= form.text_field :yyyy %>
+  </p>
+
+  <p>
+    <%= form.label :hh %><br>
+    <%= form.text_field :hh %>      
+  </p>
+ 
+  <p>
+    <%= form.label :mm %><br>
+    <%= form.text_field :mm %>      
+  </p>
+
+  <p>
+    <%= form.label :ampm %><br>
+    <%= form.text_field :ampm %>      
+  </p>
+
+  <p>
+    <%= form.label :pickup %><br>
+    <%= form.text_field :pickup %>      
+  </p>
+
+  <p>
+    <%= form.label :dropoff %><br>
+    <%= form.text_field :dropoff %>      
+  </p>
+
+
+  <p>
+    <%= form.label :passengers %><br>
+    <%= form.text_field :passengers %>      
+  </p>
+
+
+  <p>
+    <%= form.label :phone %><br>
+    <%= form.text_field :phone %>      
+  </p>
+
+
+  <p>
+    <%= form.label :email %><br>
+    <%= form.text_field :email %>      
+  </p>
+
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
+

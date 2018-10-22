@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  month: MyString
+  dd: MyString
+  yyyy: MyString
+  hh: MyString
+  mm: MyString
+  ampm: MyString
+  pickup: MyString
+  dropoff: MyString
+  passengers: MyString
+  phone: MyString
+  email: MyString
+
+two:
+  month: MyString
+  dd: MyString
+  yyyy: MyString
+  hh: MyString
+  mm: MyString
+  ampm: MyString
+  pickup: MyString
+  dropoff: MyString
+  passengers: MyString
+  phone: MyString
+  email: MyString
